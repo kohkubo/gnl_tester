@@ -1,4 +1,4 @@
-set -x
+set -xue
 
 file1=get_next_line.c
 file2=get_next_line_utils.c
