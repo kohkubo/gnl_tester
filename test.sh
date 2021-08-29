@@ -1,5 +1,11 @@
 set -xue
 
+echo 0123456789 > test1
+seq 1 1000 | tr -d '\n' > test2
+seq 1 10 | grep -o $ > test3
+seq 100 0 > test4
+seq 0 50 > test5
+
 file1=get_next_line.c
 file2=get_next_line_utils.c
 file3=./test/main.c
